@@ -1,0 +1,165 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.dialog {
+  z-index: 1000;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 200px;
+  width: 90%;
+  max-width: 520px;
+  background-color: #fff;
+  padding: 12px;
+  box-shadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 0 13px 19px 2px rgba(0, 0, 0, 0.14), 0 5px 24px 4px rgba(0, 0, 0, 0.12);
+}
+
+@media (min-width: 768px) {
+  .dialog {
+    top: 200px;
+  }
+}
+.dialog__close-btn {
+  border: 0;
+  background: none;
+  color: #2d2d2d;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 1.2em;
+}
+.img-responsive {
+	max-width: 100%;
+}
+
+/*p {
+	font-size: 14.5px;
+	font-weight: 400;
+	word-wrap: break-word;
+}
+.img-responsive {
+	max-width: 100%;
+}
+.text-muted {
+	color: #CCCCCC;
+}
+select, select:focus {
+	border: none;
+	outline: none;
+}
+select {
+	color: #757575;
+}
+option {
+	min-width: 80px;
+	padding: 10px;
+}
+.vertical-top {
+	vertical-align: top;
+}
+
+
+
+
+.emojis .emoji div {
+	width: 19%;
+	display: inline-block;
+	cursor: pointer;
+}
+.emojis .emoji div img {
+	max-width: 80px;
+}
+.emojis .emoji div label {
+	font-size: 16px;
+	display: block;
+	margin-top: 8px;
+	width: 100%
+}
+.emojis .emoji {
+	padding-bottom: 10px;
+}
+.great_line:hover button {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);
+}
+.img-responsive:hover label {
+	transition: all .2s ease-in-out;
+	font-weight: 700;
+}
+.img-responsive:hover span {
+	transition: all .2s ease-in-out;
+}
+.emojis .emoji div.great:hover label, .emojis .emoji div.great:hover span {
+	color: #277e32;
+}
+.emojis .emoji div.good:hover label, .emojis .emoji div.good:hover span {
+	color: #58be61;
+}
+.emojis .emoji div.waste:hover label, .emojis .emoji div.waste:hover span {
+	color: #d45326;
+}
+.parent div.sad:hover label, .parent div.sad:hover span {
+	color: #d42664;
+}
+.emojis .emoji div.angry:hover label, .emojis .emoji div.angry:hover span {
+	color: #e40000;
+}*/
+
+.emoji:hover #great_line{
+  color: #58be61;
+
+}
+.text-center {
+	text-align: center;
+}
+
+
+.emoji:hover img {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);
+}
+
+#great_div:hover label{
+	color: #58be61;
+
+}
+#good_div:hover label{
+	color: #d45326;
+
+}
+
+#sad_div:hover label{
+color: #e40000;
+    box-sizing: border-box;
+    word-spacing: 2px;
+
+
+}
+
+
+#great_line, #good_line, #sad_line{
+		font-size: 20px;
+	display: block;
+	margin-top: 8px;
+	width: 100%
+}
+
+#great_div:hover,#good_div:hover,#sad_div:hover label {
+	transition: all .2s ease-in-out;
+	font-weight: 900
+}
+label {
+    cursor: default;
+	font-family: Roboto;
+    color: #757575;
+}
